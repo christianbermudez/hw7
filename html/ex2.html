@@ -3,13 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercise 3 - Visited Countries</title>
+  <title>Exercise 2 - GitHub Profile</title>
   <link rel="stylesheet" href="../css/style.css">
-  <script src="../js/ex3.js" defer></script>
+  <script src="../js/ex2.js" defer></script>
 </head>
 <body>
   <h1><a href="../index.html">Back to Index</a></h1>
-  <h2>Visited Countries</h2>
-  <p>Open the console to see the server response.</p>
+  <h2>GitHub Profile</h2>
+
+  <p>
+    <label for="loginInput">Enter GitHub Login:</label>
+    <input type="text" id="loginInput" placeholder="e.g. brendaneich">
+    <button id="fetchBtn">Fetch Profile</button>
+  </p>
+
+  <div id="profile"></div>
 </body>
 </html>
