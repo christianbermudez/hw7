@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 4 - FormData Key/Value Pairs</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/ex4.js" defer></script>
+</head>
+<body>
+  <h1><a href="../index.html">Back to Index</a></h1>
+  <h2>FormData Key/Value Pairs</h2>
+
+  <form id="myForm">
+    <p>
+      <label for="firstName">First Name:</label><br>
+      <input type="text" id="firstName" name="firstName">
+    </p>
+    <p>
+      <label for="lastName">Last Name:</label><br>
+      <input type="text" id="lastName" name="lastName">
+    </p>
+    <p>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email">
+    </p>
+    <p>
+      <label for="country">Country:</label><br>
+      <select id="country" name="country">
+        <option value="usa">USA</option>
+        <option value="mexico">Mexico</option>
+        <option value="canada">Canada</option>
+        <option value="spain">Spain</option>
+        <option value="other">Other</option>
+      </select>
+    </p>
+    <p>
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" name="comments" rows="3"></textarea>
+    </p>
+    <button type="submit" id="submitBtn">Submit</button>
+  </form>
+
+  <div id="output"></div>
+</body>
+</html>
